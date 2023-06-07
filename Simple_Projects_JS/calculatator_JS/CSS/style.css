@@ -1,0 +1,27 @@
+body
+{
+    display: grid;
+    place-items: center;
+    margin-top: 5em;
+}
+.container
+{
+    border: 0.5em solid rgba(80, 165, 210, 0.692);
+    padding: 1em;
+    width: max-content;
+    border-radius: 5%;
+}
+.display
+{
+    height: 60px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: rgb(169, 187, 169);
+}
+.butoane
+{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    margin-top: 10px;
+}

@@ -1,0 +1,115 @@
+.title h2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 2em;
+
+}
+
+.container__program {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+
+}
+
+.container__first {
+    margin-right: 2em;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+    width: 300px;
+    height: 300px;
+    margin-top: 10em;
+    background-color: aqua;
+    border-radius: 10%;
+    padding: 1em;
+    box-shadow: 5px 10px rgba(23, 105, 130, 0.59);
+    transition: 0.8s;
+
+}
+
+.container__first:hover {
+    scale: 1.2;
+}
+
+.container__summary {
+    margin-top: 10em;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    background-color: rgb(45, 137, 228);
+    border-radius: 10%;
+    padding: 1em;
+    box-shadow: 5px 10px rgba(23, 105, 130, 0.59);
+    transition: 0.8s;
+}
+
+.container__summary:hover {
+    scale: 1.2;
+}
+
+.container__variables {
+    margin-top: 5em;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    background-color: rgb(54, 69, 206);
+    border-radius: 10%;
+    padding: 1em;
+    box-shadow: 5px 10px rgba(23, 105, 130, 0.59);
+    transition: 0.8s;
+}
+
+.container__variables:hover {
+    scale: 1.2;
+}
+
+.container__operator {
+    margin-top: 5em;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    background-color: rgb(54, 69, 206);
+    border-radius: 10%;
+    padding: 1em;
+    box-shadow: 5px 10px rgba(23, 105, 130, 0.59);
+    transition: 0.8s;
+}
+
+.container__operator:hover {
+    scale: 1.2;
+}
+
+.container__variablesAndoperators__practice__task {
+    margin-top: 5em;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    background-color: rgb(54, 69, 206);
+    border-radius: 10%;
+    padding: 1em;
+    box-shadow: 5px 10px rgba(23, 105, 130, 0.59);
+    transition: 0.8s;
+}
+
+.container__variablesAndoperators__practice__task:hover {
+    scale: 1.2;
+}
+
+.container__variablesAndoperators__practice__asnwers {
+    margin-top: 5em;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    background-color: rgb(54, 69, 206);
+    border-radius: 10%;
+    padding: 1em;
+    box-shadow: 5px 10px rgba(23, 105, 130, 0.59);
+    transition: 0.8s;
+}
+
+.container__variablesAndoperators__practice__asnwers:hover {
+    scale: 1.2;
+}

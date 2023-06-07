@@ -1,0 +1,87 @@
+:root
+{
+    --blue_see: rgb(0, 55, 255);
+    --blue_see1:  rgb(0, 4, 255);
+    --blue_sky:  rgb(104, 155, 226);
+}
+body
+{
+    background-color: rgba(182, 184, 239, 0.678);
+}
+.title
+{
+    text-align: center;
+    color: var(--blue_see1);
+    text-shadow: 0.1em 0.1em rgb(46, 43, 43);
+    transition: 0.8s;
+}
+.title:hover{
+    scale: 1.1;
+    color: var(--blue_sky);
+    text-shadow: none;
+    font-weight: 700;
+}
+.container
+{
+    margin-top: 5em;
+    text-align: center;
+}
+.container h3
+{
+    color: var(--blue_see);
+}
+.container_input 
+{
+    margin-top: 5em;
+    text-align: center;
+}
+.container_input h3
+{
+    color: var(--blue_see);
+}
+.title_h3
+{
+   margin-top: 5em; 
+}
+.title_h3 h3
+{
+    
+    text-align: center;
+    color: var(--blue_see);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3em;
+}
+.text_input
+{
+    margin-top: 5em;
+    text-align: center;
+}
+.text_input p
+{
+    font-size: 1.5em;
+}
+.container__disko
+{
+    display: flex;
+    justify-content: center;
+}
+.disko
+{
+    
+    margin-top: 5em;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+.container__exercises1
+{
+    display: flex;
+    justify-content: center; 
+}
+.container__main
+{
+    margin-top: 5em;
+    width: 100px;
+    height: 100px;
+    text-align: center;  
+}
